@@ -32,4 +32,3 @@ if currentStrength[1]:
     print(currentStrength[0])
 else:
     print('No')
-    print(currentStrength[0])
