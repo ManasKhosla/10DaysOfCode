@@ -4,13 +4,13 @@ def traverse(cmap,k,s):
     for i in cmap:
         for j in i:
             if j == ".":
-                c -= 2
+                c -= 3
             elif j == "*":
-                c += 5
+                c += 4
             elif j == "#":
+                c -= 1
                 break
-            c -= 1
-        print(c)
+        c += 1
         if c<k:
             flag = False
             break
